@@ -1,0 +1,24 @@
+
+/* -----------------------About-me Section------------------------- */
+
+.about-me {
+  background-color: #F6F6F6;
+  padding: 120px 0 107px;
+}
+.about {
+  max-width: 486px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 22px;
+  color: #070707;
+}
+.about__title {
+  margin-bottom: 18px;
+}
+.about__text  {
+
+}
+.about__text:not(:last-child) {
+  margin-bottom: 48px;
+}

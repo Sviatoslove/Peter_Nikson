@@ -1,0 +1,26 @@
+
+/* ---------------------Contacts Section------------------------- */
+
+.contacts-full {
+  padding: 114px 0 23px;
+}
+.contacts {
+  text-align: center;
+}
+.contacts__title {
+  margin-bottom: 20px;
+}
+.contacts__text  {
+  max-width: 275px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.contacts__message {
+  margin-bottom: 86px;
+}
+.offer  {
+  max-width: 342px;
+  width: 100%;
+  margin: 0 auto;
+}

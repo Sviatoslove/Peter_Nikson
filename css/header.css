@@ -1,0 +1,70 @@
+
+/* --------------------------Header------------------------- */
+
+.header {
+  padding: 32px 0 104px;
+}
+.nav {
+  position: relative;
+  font-weight: bold;
+  padding-bottom: 32px;
+  margin-bottom: 40px;
+}
+.nav::after {
+  position: absolute;
+  content: '';
+  display: block;
+  background-color: #828282;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+}
+.nav__item {
+
+}
+.nav__link {
+  color: #828282;
+}
+.contain {
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+.contain__title {
+  max-width: 150px;
+  width: 100%;
+}
+.contain__text {
+  max-width: 156px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.contain__lang {
+  position: relative;
+  width: 68px;
+  transform: rotate(-90deg);
+  transform-origin: 39% -122%;
+}
+.contain__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.contain__link_russian {
+}
+.contain__link_russian::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 15px;
+  background-color: #000;
+  height: 2px;
+  transform: rotate(90deg);
+  top: 50%;
+  left: 30%;
+}
+.contain__link_english {
+}
+.photo {
+}

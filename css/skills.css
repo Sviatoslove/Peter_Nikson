@@ -1,0 +1,37 @@
+
+/* ------------------------Skills Section----------------------- */
+
+.skills {
+  padding: 91px 0 110px;
+}
+.skills-title {
+  margin-bottom: 69px;
+}
+.skills-text {
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 84px;
+}
+.programs {
+  max-width: 936px;
+  width: 100%;
+}
+.programs__item {
+  max-width: 166px;
+  width: 100%;
+  text-align: center;
+}
+.programs__title  {
+  max-width: 80px;
+  width: 100%;
+  height: 34px;
+  margin: 24px auto 40px;
+}
+.programs__rate {
+  display: flex;
+  justify-content: space-between;
+}
+.programs__star {
+}
+.programs__star_empty {
+}

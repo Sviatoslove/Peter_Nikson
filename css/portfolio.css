@@ -1,0 +1,36 @@
+
+/* -----------------------Portfolio Section------------------ */
+
+.portfolio  {
+  background-color: #F6F6F6;
+  padding: 113px 0 96px;
+}
+.essence {
+  text-align: center;
+}
+.essence__title {
+  margin-bottom: 46px;
+}
+.essence_item:not(:last-child) {
+  margin-bottom: 99px;
+}
+.essence__img {
+  margin-bottom: 46px;
+}
+.essence__link {
+  position: relative;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 99px;
+  color: #070707;
+}
+.essence__link::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #070707;
+  left: 0;
+  bottom: 0;
+}
