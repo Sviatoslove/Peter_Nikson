@@ -20,7 +20,6 @@
   bottom: 0;
 }
 .nav__item {
-
 }
 .nav__link {
   color: #828282;
@@ -37,23 +36,25 @@
   max-width: 156px;
   width: 100%;
   margin-bottom: 12px;
+  margin-left: 271px;
 }
-.contain__lang {
-  position: relative;
+.nav__item_lang {
+  position: absolute;
   width: 68px;
   transform: rotate(-90deg);
-  transform-origin: 39% -122%;
+  right: -2.6%;
+  top: 276%;
 }
-.contain__link {
+.nav__link_russian, .nav__link_english {
   font-size: 16px;
   line-height: 19px;
   color: #828282;
   text-transform: uppercase;
   font-weight: 700;
 }
-.contain__link_russian {
+.nav__link_russian {
 }
-.contain__link_russian::after {
+.nav__link_russian::after {
   position: absolute;
   content: '';
   display: block;
@@ -64,7 +65,11 @@
   top: 50%;
   left: 30%;
 }
-.contain__link_english {
+.nav__link_english {
 }
 .photo {
+  max-width: 943px;
+  width: 100%;
+  height: 387px;
+  background: url(../img/man_looking_up.png) no-repeat center center / contain;
 }
