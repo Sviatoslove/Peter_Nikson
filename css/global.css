@@ -6,7 +6,6 @@ html {
 }
 body {
   font-family: 'Gilroy', Geneva, sans-serif;
-  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: #000000;
@@ -36,12 +35,15 @@ body {
 }
 .button {
   min-width: 180px;
+  height: 42px;
   background-color: #070707;
   color: #fff;
   font-weight: 700;
-  padding: 13px 30px 7px 28px;
+  padding: 0 30px;
   border-radius: 50px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .button:hover {
   background-color: #F6F6F6;
@@ -54,6 +56,10 @@ body {
 .sites__link:hover {
   color: #000;
   text-decoration: underline;
+}
+.offer__svg:hover {
+  fill: #828282;
+  stroke:rgba(68, 248, 248, 0.397)
 }
 div, p, form, input, button, a, span {
   box-sizing: border-box;

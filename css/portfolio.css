@@ -11,7 +11,7 @@
 .essence__title {
   margin-bottom: 46px;
 }
-.essence_item:not(:last-child) {
+.essence__item:not(:last-child) {
   margin-bottom: 99px;
 }
 .essence__img {

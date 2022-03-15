@@ -122,12 +122,12 @@
   .essence__title {
     margin-bottom: 65px;
   }
-  .essence_item {
+  .essence__item {
     max-width: 316px;
     width: 100%;
     margin: 0 auto 78px;
   }
-  .essence_item:last-child {
+  .essence__item:last-child {
     margin: 0 auto;
   }
   .essence__img {
@@ -141,14 +141,13 @@
     width: 100%;
     margin: 0 auto;
   }
-  ..contacts__title {
+  .contacts__title {
     margin-bottom: 27px;
   }
   .contacts__text {
     margin-bottom: 40px;
   }
   .contacts__message {
-    width: 100%;
     margin-bottom: 48px;
   }
   .footer {
@@ -172,4 +171,7 @@
     font-size: 14px;
     line-height: 16px;
   }
+  .essence__link {
+    font-size: 16px;
+  }  
 }  

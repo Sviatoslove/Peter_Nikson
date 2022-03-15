@@ -50,7 +50,6 @@
   line-height: 19px;
   color: #828282;
   text-transform: uppercase;
-  font-weight: 700;
 }
 .nav__link_russian {
 }
@@ -71,5 +70,5 @@
   max-width: 943px;
   width: 100%;
   height: 387px;
-  background: url(../img/man_looking_up.png) no-repeat center center / contain;
+  background: url(../img/man_looking_up.png) no-repeat center center / cover;
 }
